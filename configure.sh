@@ -1,49 +1,8 @@
 echo "INSTALATION AUTOMATIC METASPLOIT FRAMEWEORK NEWEST VERSION"
 echo "FOR SUPPORT PLEASE CLICK SUBSCRIBE,LIKE, COMMENT AND SHARE"
 
-pkg install unstable-repo -y
-pkg install root-repo -y
-pkg install x11-repo -y
-pkg install science-repo -y
-pkg install game-repo -y
-pkg install clang -y
-pkg install curl -y
-pkg install openssh -y
-pkg install openssl -y
-pkg install openssl-tool -y
-pkg install postgresql -y
-pkg install ruby -y
-pkg install ruby-ri -y
-pkg install utf8cpp -y
-pkg install utf8proc -y
-pkg install utfdecode -y
-pkg install tracepath -y
-pkg install translate-shell -y
-pkg install squid -y
-pkg install sshpass -y
-pkg install sqlcipher -y
-pkg install shell2http -y
-pkg install shellharden -y
-pkg install shellinabox -y
-pkg install sensible-utils -y
-pkg install potrace -y
-pkg install privoxy -y
-pkg install procps -y
-pkg install profanity -y
-pkg install progress -y
-pkg install proot-distro -y
-pkg install proot -y
-pkg install proxmark3 -y
-pkg install proxychains-ng -y
-pkg install psmisc -y
-pkg install psutils -y
-pkg install oathtool -y
-pkg install obfs4proxy -y
-pkg install ocrad -y
-pkg install odt2txt -y
-pkg install okc-agents -y
-pkg install net-tools -y
-pkg install netpbm -y
-pkg install netsed -y
-pkg install metasploit -y
+
+sudo apt-get install metasploit-framework -y
+gem install bundler
+gem update
 msfconsole
